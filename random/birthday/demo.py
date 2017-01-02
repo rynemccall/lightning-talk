@@ -28,17 +28,15 @@ def simulate_number_of_people_in_room_before_collision():
 
     unique_birthdays = set()
     all_birthdays = []
-    people_in_room = 0
 
     while True:
-        people_in_room += 1
         birthday_ordinal = random.randint(0, 365 - 1)
 
         unique_birthdays.add(birthday_ordinal)
         all_birthdays.append(birthday_ordinal)
 
         if len(unique_birthdays) != len(all_birthdays):
-            return people_in_room
+            return len(all_birthdays)
 
 
 def generate_histogram(s):
