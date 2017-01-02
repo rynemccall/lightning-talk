@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """ Empirically simulate the birthday paradox
 
 The birthday paradox is the surprisingly high change that two
