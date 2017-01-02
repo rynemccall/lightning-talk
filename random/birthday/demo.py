@@ -1,4 +1,7 @@
-""" Empirically simulate the birthday paradox (two people with same birthday)
+""" Empirically simulate the birthday paradox
+
+The birthday paradox is the surprisingly high change that two
+people in a group of people share the same birthday.
 
 See https://en.wikipedia.org/wiki/Birthday_problem for details.
 
