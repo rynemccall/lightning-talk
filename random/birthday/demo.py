@@ -50,7 +50,7 @@ def generate_histogram(s):
     plt.xlabel('Number of people in room when first birthday collision occurs')
 
     plt.axvline(
-        sum(s) / NUMBER_OF_SIMULATIONS,
+        float(sum(s)) / NUMBER_OF_SIMULATIONS,
         color='red',
         linewidth=2,
         linestyle='--'
